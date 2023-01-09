@@ -1,0 +1,40 @@
+.field{
+    border: 1px solid  red;
+    height: 500px;
+    width: 100%;
+    overflow-wrap: normal;
+    display: flex;
+    align-items: flex-end;
+}
+/* img{
+    width:200px;
+    height:300px;
+    background-size: cover;
+} */
+.bat{
+    height: 450px;
+    transition: transform 0.3s ease-in;
+}
+
+.field:hover .bat{
+    transform: rotate(-60deg);
+    transform-origin: top right;
+}
+.ball{
+    height: 50px;
+    width: 50px;
+    background: red;
+    border-radius: 50%;
+    margin-left: 150px;
+    transition: transform 1s ease-out 0.3s;
+    /* position: relative;
+    left: 515px; */
+}
+.field:hover .ball{
+    transform: translate(900px, -200px);
+}
+.hit{
+    padding: 10px 20px;
+    background: red;
+    border-radius: 8px;
+}

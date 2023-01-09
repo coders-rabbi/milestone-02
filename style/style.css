@@ -1,0 +1,7 @@
+p::first-letter{
+    color: pink;
+    font-size: 30px;
+}
+p::first-line{
+    color: red;
+}

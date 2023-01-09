@@ -1,0 +1,12 @@
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid cadetblue;
+    background: blueviolet;
+    transition: width 5s linear, height  5s linear, transform 5s;
+}
+.box:hover{
+    height: 200px;
+    width: 200px;
+    transform: rotate(70deg);
+}
