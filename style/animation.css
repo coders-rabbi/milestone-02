@@ -1,0 +1,68 @@
+.stage{
+    height: 100px;
+    width: 500px;
+    border: 1px solid green;
+}
+.ball{
+    height: 50px;
+    width: 50px;
+    background: lightgreen;
+    border-radius: 50%;
+    animation: rabbi 2s ease-in-out 0.5s infinite alternate;
+    animation-play-state: running;
+    position: relative;
+}
+@keyframes rabbi {
+    from{
+        background: lightgreen;
+        left: 0;
+    }    
+    to{
+        background: red;
+        left: 450px;
+    }
+}
+
+
+
+
+
+/* Stage2 */
+.stage2{
+    height: 100px;
+    width: 100%;
+    border: 1px solid green;
+}
+.ball2{
+    height: 50px;
+    width: 50px;
+    background: lightgreen;
+    border-radius: 50%;
+    animation: rabbi2 2s ease-in-out 0.5s infinite alternate;
+    animation-play-state: running;
+    position: relative;
+}
+@keyframes rabbi2 {
+        0%{
+            background: red;
+            left: 0;
+            top: 0;
+        }
+        25%{
+            /* background: red; */
+            top: 50px;
+        }
+        50%{
+            /* background: red; */
+            top: 0;
+        }
+        75%{
+            /* background: red; */
+            top: 50px;
+        }
+        100%{
+            /* background: black; */
+            left: 96%;
+            top: 0;
+        }
+}
